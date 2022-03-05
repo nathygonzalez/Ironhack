@@ -1,0 +1,21 @@
+fahrenheit = 32
+>>> print("Enter temperature:")
+>>> temperature = input()
+>>> print("Please input F for Fahrenheit or C for Celsius")
+>>> unit = input ()
+>>> if unit == F:
+>>> print("Temperature in Celsius is: ", 'temperature / fahrenheit')
+>>> elif unit == C:
+>>> print("Temperature in Fahrenheit is: ", 'temperature * fahrenheit')
+
+
+fahrenheit = 32
+print("Enter temperature:")
+temperature = input()
+print("Please input F for Fahrenheit or C for Celsius")
+unit = input ()
+import math
+if unit == F:
+print("Temperature in Celsius is: ", 'temperature / fahrenheit')
+elif unit == C:
+print("Temperature in Fahrenheit is: ", 'temperature * fahrenheit')
